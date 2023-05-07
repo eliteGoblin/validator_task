@@ -1,0 +1,41 @@
+# General
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.bak
+*.tmp
+*~
+*.pyc
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Visual Studio Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# macOS
+.DS_Store
+
+# pytest cache
+.pytest_cache/
+
+# mypy cache
+.mypy_cache/
+
+# coverage.py
+.coverage
+.coverage.*
+*.cover

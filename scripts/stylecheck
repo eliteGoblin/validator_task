@@ -1,0 +1,4 @@
+
+#!/bin/sh
+pycodestyle --exclude=.venv --config=./scripts/pycode.cfg ./validator_task ./tests
+pylint --rcfile=./scripts/pylintrc ./validator_task ./tests

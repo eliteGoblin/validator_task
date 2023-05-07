@@ -1,0 +1,3 @@
+#!/bin/bash
+
+coverage run --source=validator_task -m pytest -vv tests && coverage report -m
